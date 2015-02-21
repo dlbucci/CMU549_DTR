@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body {
+  font-family: sans-serif;
+}
+
+h1.project-title,
+ul.project-authors,
+ul.nav {
+  text-align: center;
+}
+
+ul.project-authors {
+  list-style: none;
+  padding: 0;
+}
+ul.project-authors > li {
+  display: inline-block;
+}
+ul.project-authors > li + li {
+  padding-left: 1ch;
+}
+
+ul.nav {
+  list-style: none;
+  padding: 0;
+}
+ul.nav > li {
+  display: inline-block;
+}
+ul.nav > li + li::before {
+  content: " | ";
+}
+
+div#mainContent {
+  margin-left: auto; margin-right: auto;
+  max-width: 1000px;
+}
+
+h2.page-title {
+  text-align: center;
+  text-decoration: underline;
+}
+
+div#footer {
+  font-size: 9pt;
+  text-align: center;
+}

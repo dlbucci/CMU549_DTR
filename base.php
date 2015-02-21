@@ -4,6 +4,7 @@
     <title>Distributed Tabletop Robots (18-549 Team 11)</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style.css"/>
   </head>
   <body>
     <h1 class="project-title">Distributed Tabletop Robots (18-549 Team 11)</h1>
@@ -27,7 +28,7 @@
     </ul>
 
     <div id="mainContent" class="content">
-      <h1 style="text-align:center; text-decoration:underline;"><?= $title ?></h1>
+      <h2 class="page-title"><?= $title ?></h1>
       <? include $content ?>
     </div>
 
