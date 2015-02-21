@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="assets/style.css"/>
   </head>
   <body>
-    <h1 class="project-title">Distributed Tabletop Robots (18-549 Team 11)</h1>
-
-    <ul class="project-authors">
-      <li>Ibukun Adeleye (iia)</li>
-      <li>Dale Best (dbest)</li>
-      <li>Daniel Bucci (dlbucci)</li>
-      <li>Sriharsha Vasadi (svasadi)</li>
-    </ul>
+    <h1 class="project-title">Distributed Tabletop Robots</h1>
+    
+    <h4 class="team-name">
+      18-549 Team 11:
+      <ul class="project-authors">
+        <li>Ibukun Adeleye (iia)</li>
+        <li>Dale Best (dbest)</li>
+        <li>Daniel Bucci (dlbucci)</li>
+        <li>Sriharsha Vasadi (svasadi)</li>
+      </ul>
+    </h3>
 
     <ul class="nav">
       <li><a href="concept.php">Concept</a></li>

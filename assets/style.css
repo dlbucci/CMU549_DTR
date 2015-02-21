@@ -5,13 +5,17 @@ body {
 }
 
 h1.project-title,
+h4.team-name,
 ul.project-authors,
 ul.nav {
   text-align: center;
 }
 
 ul.project-authors {
+  display: inline-block;
+  font-weight: normal;
   list-style: none;
+  margin: 0;
   padding: 0;
 }
 ul.project-authors > li {
@@ -40,6 +44,10 @@ div#mainContent {
 h2.page-title {
   text-align: center;
   text-decoration: underline;
+}
+
+p {
+  text-align: justify;
 }
 
 div#footer {
