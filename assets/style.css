@@ -7,7 +7,9 @@ body {
 h1.project-title,
 h4.team-name,
 ul.project-authors,
-ul.nav {
+ul.nav,
+figure,
+figcaption {
   text-align: center;
 }
 
@@ -48,6 +50,12 @@ h2.page-title {
 
 p {
   text-align: justify;
+}
+
+figcaption {
+  font-size: 10pt;
+  font-weight: bold;
+  margin: 1em 0;
 }
 
 div#footer {
