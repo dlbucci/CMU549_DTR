@@ -2,12 +2,18 @@
 
 <ul>
   <li>
-    <p> Camera <span class="tab"> <img src="images/camera.png" alt="camera" width="180" height="108" align="top"> </p>
-    <p> (Raspberry Pi Camera) </p>
+    <p>Camera</p>
+    <figure>
+      <img src="images/camera.png" alt="camera" width="180" height="108" align="top" />
+      <figcaption>Raspberry Pi Camera</figcaption>
+    </figure>
   </li>
   <li>
-    <p> Microprocessor <span class="tab"> <img src="images/rpi.jpg" alt="camera" width="300" height="130" align="top"> </p>
-    <p> (Raspberry Pi + Bluetooth) </p>
+    <p>Microprocessor</p>
+    <figure>
+      <img src="images/rpi.jpg" alt="camera" width="300" height="130" align="top" />
+      <figcaption>Raspberry Pi &amp; Bluetooth</figcaption>
+    </figure>
   </li>
 </ul>
 
@@ -15,21 +21,36 @@
 
 <ul>
   <li>
-    <p> Chassis <span class="tab"> <img src="images/chasis.jpg" alt="chassis" width="45%" height="45%" align="top"> </p>
-    <p> (Magician Chassis) </p>
+    <p>Chassis</p>
+    <figure>
+      <img src="images/chasis.jpg" alt="chassis" width="45%" height="45%" align="top" />
+      <figcaption>Magician Chassis</figcaption>
+    </figure>
   </li>
   <li>
-    <p> Component Placement <span class="tab"> <img src="images/placement.jpg" alt="Component Placement" width="100%" height="100%" align="top"> </p>
+    <p>Component Placement</p>
+    <figure>
+      <img src="images/placement.jpg" alt="Component Placement" width="100%" height="100%" align="top" />
+    </figure>
   </li>
   <li>
-    <p> Microcontroller <span class="tab"> <img src="images/atmega.jpg" alt="microcontroller" width="25%" height="25%" align="top"> </p>
+    <p>Microcontroller</p>
+    <figure>
+      <img src="images/atmega.jpg" alt="microcontroller" width="25%" height="25%" align="top" />
+    </figure>
   </li>
   <li>
-    <p> Sensors <span class="tab"> <img src="images/sensors.jpg" alt="sensors" width="50%" height="50%" align="top"> </p>
-    <p> (Bump + IR Sensors) </p>
+    <p>Sensors</p>
+    <figure>
+      <img src="images/sensors.jpg" alt="sensors" width="50%" height="50%" align="top" />
+      <figcaption>Bump &amp; IR Sensors</figcaption>
+    </figure>
   </li>
   <li>
-    <p> Others <span class="tab"> <img src="images/others.jpg" alt="others" width="40%" height="40%" align="top"> </p>
-    <p> (Bluetooth + Battery) </p>
+    <p>Others</p>
+    <figure>
+      <img src="images/others.jpg" alt="others" width="40%" height="40%" align="top" />
+      <figcaption>Bluetooth &amp; Battery</figcaption>
+    </figure>
   </li>
 </ul>
