@@ -9,4 +9,3 @@
 <div>
   <video src="videos/camera-test.mp4" height="480" controls class="rotate-left">Come on, man.  It's 2015.</video>
 </div>
-<div>Thank Harsha for the dumb orientation</div>
