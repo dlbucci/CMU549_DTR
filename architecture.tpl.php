@@ -1,5 +1,4 @@
 <h3>Architecture</h3>
-
 <ul>
   <li>
     <p></p>
