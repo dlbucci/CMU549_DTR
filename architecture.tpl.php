@@ -1,4 +1,4 @@
-<h3>Schematic</h3>
+<h3>Architecture</h3>
 
 <ul>
   <li>
@@ -10,6 +10,7 @@
   </li>
 </ul>
 
+<h3>Schematic</h3>
 <ul>
   <li>
     <p></p>
