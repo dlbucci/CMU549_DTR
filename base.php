@@ -8,9 +8,9 @@
   </head>
   <body>
     <header class="box">
-      <h1 class="project-title"><a href="index.php">Distributed Tabletop Robots</a></h1>
+      <div class="project-title"><a href="index.php">DTR: Distributed Tabletop Robots</a></div>
       
-      <h4 class="team-name">
+      <div class="team-name">
         18-549 Team 11:
         <ul class="project-authors">
           <li>Ibukun Adeleye (iia)</li>
@@ -18,7 +18,7 @@
           <li>Daniel Bucci (dlbucci)</li>
           <li>Sriharsha Vasadi (svasadi)</li>
         </ul>
-      </h4>
+      </div>
     </header>
 
     <nav class="box">
