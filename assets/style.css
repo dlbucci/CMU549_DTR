@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-  background: black;
+  background: #333;
   color: darkslategray;
   font-family: "Century Gothic", sans-serif;
   margin: 0;
@@ -10,6 +10,13 @@ body {
 
 .box {
   padding: 1em;
+}
+.clearfix::after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  width: 100%;
 }
 header {
   background: orange;
@@ -89,6 +96,9 @@ div#main {
   margin: 0 auto;
   max-width: 1000px;
 }
+div#main > *:first-child {
+  margin-top: 0;
+}
 
 p {
   text-align: justify;
@@ -110,3 +120,46 @@ video {
   max-height: 100%;
   max-width: 100%;
 }
+
+a {
+  color: #333;
+}
+
+/**
+ * COMPETITION LIST
+ **/
+ul#competitors {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul#competitors > li {
+  clear: both;
+  padding: 1em;
+}
+ul#competitors > li::after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  width: 100%;
+}
+ul#competitors > li > h3 {
+  margin-top: 0;
+}
+ul#competitors > li:nth-child(even) {
+
+}
+ul#competitors > li:nth-child(odd) {
+  background: #eee;
+  padding: 1em;
+}
+ul#competitors > li:nth-child(even) img {
+  float: left;
+  padding-right: 1em;
+}
+ul#competitors > li:nth-child(odd) img {
+  float: right;
+  padding-left: 1em;
+}
+
