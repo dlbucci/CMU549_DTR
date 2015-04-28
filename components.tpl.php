@@ -1,15 +1,18 @@
 <h3>Central Hub</h3>
 
-<ul>
+<ul class="competitors">
   <li>
-    <p>Camera</p>
+    <h4>Camera</h4>
+
     <figure>
       <img src="images/camera.png" alt="camera" width="180" height="108" align="top" />
       <figcaption>Raspberry Pi Camera</figcaption>
     </figure>
   </li>
+
   <li>
-    <p>Microprocessor</p>
+    <h4>Microprocessor</h4>
+
     <figure>
       <img src="images/rpi.jpg" alt="camera" width="300" height="130" align="top" />
       <figcaption>Raspberry Pi &amp; Bluetooth</figcaption>
@@ -19,35 +22,44 @@
 
 <h3>Robot</h3>
 
-<ul>
+<ul class="competitors">
   <li>
-    <p>Chassis</p>
+    <h4>Chassis</h4>
+
     <figure>
       <img src="images/chasis.jpg" alt="chassis" width="45%" height="45%" align="top" />
       <figcaption>Magician Chassis</figcaption>
     </figure>
   </li>
+
   <li>
-    <p>Component Placement</p>
+    <h4>Component Placement</h4>
+
     <figure>
       <img src="images/placement.jpg" alt="Component Placement" width="100%" height="100%" align="top" />
     </figure>
   </li>
+
   <li>
-    <p>Microcontroller</p>
+    <h4>Microcontroller</h4>
+
     <figure>
       <img src="images/atmega.jpg" alt="microcontroller" width="25%" height="25%" align="top" />
     </figure>
   </li>
+
   <li>
-    <p>Sensors</p>
+    <h4>Sensors</h4>
+
     <figure>
       <img src="images/sensors.jpg" alt="sensors" width="50%" height="50%" align="top" />
       <figcaption>Bump &amp; IR Sensors</figcaption>
     </figure>
   </li>
+
   <li>
-    <p>Others</p>
+    <h4>Others</h4>
+
     <figure>
       <img src="images/others.jpg" alt="others" width="40%" height="40%" align="top" />
       <figcaption>Bluetooth &amp; Battery</figcaption>

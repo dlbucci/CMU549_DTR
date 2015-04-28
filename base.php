@@ -23,7 +23,7 @@
 
     <nav class="box">
       <ul class="nav">
-        <li><a href="concept.php">Concept</a></li>
+        <li><a href="index.php">Concept</a></li>
         <li><a href="competitive.php">Competitive Analysis</a></li>
         <li><a href="motivation.php">Motivation</a></li>
         <li><a href="requirements.php">Requirements</a></li>

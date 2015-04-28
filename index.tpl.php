@@ -1,25 +1,35 @@
-<div class="video box">
-  <h3>Round Trip Test</h3>
+<h3>Project Overview</h3>
 
-  <p>This was filmed on April 24th, 2015.  It demonstrates the bare-minimum of the interactions we hope to achieve.</p>
+<p>This project will allow multiple robots to work together to cover terrain as quickly as possible.</p>
 
-  <div>
-    <video src="videos/roundtrip-test.mp4" controls>Get it together, dawg.</video>
-  </div>
-</div>
+<p>Using images from a camera with a bird's-eye view, a central hub will coordinate the movements of multiple networked robots to achieve maximum terrain coverage while minimizing time and distance travelled for each robot.</p>
 
-<div class="video box">
-  <h3>Raspberry Pi Camera Test</h3>
+<h3>Video Updates</h3>
 
-  <div>
-    <video src="videos/camera-test.mp4" controls>Come on, man.  It's 2015.</video>
-  </div>
-</div>
+<ul class="competitors">
+  <li class="video box">
+    <h4>Round Trip Test</h4>
 
-<div class="video box">
-  <h3>Robot Sensor Test</h3>
+    <p>This was filmed on April 24th, 2015.  It demonstrates the bare-minimum of the interactions we hope to achieve.</p>
 
-  <div>
-    <video src="videos/sensor-test.mp4" controls>Dude, upgrade your browser already.</video>
-  </div>
-</div>
+    <div>
+      <video src="videos/roundtrip-test.mp4" controls>Get it together, dawg.</video>
+    </div>
+  </li>
+
+  <li class="video box">
+    <h4>Raspberry Pi Camera Test</h4>
+
+    <div>
+      <video src="videos/camera-test.mp4" controls>Come on, man.  It's 2015.</video>
+    </div>
+  </li>
+
+  <li class="video box">
+    <h4>Robot Sensor Test</h4>
+
+    <div>
+      <video src="videos/sensor-test.mp4" controls>Dude, upgrade your browser already.</video>
+    </div>
+  </li>
+</ul>
