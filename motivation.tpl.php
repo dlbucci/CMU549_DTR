@@ -2,7 +2,7 @@
 
 <p>We hope to develop a solution to this problem for small, indoor spaces by using a bird's-eye camera that will track individual robots as they move about the enclosed terrain and will collect data about their surrounding environment.</p>
 
-<p>If we can prove this will work for a small enclosure, the solution could easily be scaled to use multiple cameras in a network to allow robots to autonomously and efficiently move about larger enviroments, such as entire building floors.</p>
+<p>If we can prove this will work for a small enclosure, the solution could easily be scaled in future to use multiple cameras in a network to allow robots to autonomously and efficiently move about larger enviroments, such as entire building floors.</p>
 
 <figure>
   <img src="images/birdEyeView0.jpg" />
