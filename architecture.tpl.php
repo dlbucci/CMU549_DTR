@@ -1,32 +1,28 @@
-<h3>Architecture</h3>
-<ul>
+<ul class="competitors">
   <li>
-    <p></p>
+    <h3>Architecture</h3>
+
     <figure>
-      <img src="images/Architecture.jpg" alt="Architecture" width="600" height="500" align="top" />
-      <figcaption>Architecture</figcaption>
+      <img src="images/Architecture.jpg" alt="Architecture" align="top" />
+      <figcaption>The Overview of the Project's General Architecture</figcaption>
     </figure>
   </li>
-</ul>
 
-<h3>Schematic</h3>
-<ul>
   <li>
-    <p></p>
+    <h3>Schematic</h3>
+
     <figure>
-      <img src="images/eagle_sch.jpg" alt="schematic" width="600" height="500" align="top" />
-      <figcaption>Schematic</figcaption>
+      <img src="images/eagle_sch.jpg" alt="schematic" align="top" />
+      <figcaption>The Schematic of the Custom PCB Used by the Robots</figcaption>
     </figure>
   </li>
-</ul>
 
-<h3>Layout</h3>
-<ul>
   <li>
-    <p></p>
+    <h3>Layout</h3>
+
     <figure>
-      <img src="images/eagle_lay.jpg" alt="layout" width="600" height="500" align="top" />
-      <figcaption>Layout</figcaption>
+      <img src="images/eagle_lay.jpg" alt="layout" align="top" />
+      <figcaption>The Layout of the Custom PCB</figcaption>
     </figure>
   </li>
 </ul>

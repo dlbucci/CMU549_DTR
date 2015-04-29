@@ -1,40 +1,72 @@
 @charset "utf-8";
 
-body {
-  background: black;
-  color: darkslategray;
-  font-family: sans-serif;
-  margin: 0;
+/**
+ * USEFUL CLASSES
+ **/
+.box {
   padding: 1em;
+}
+.clearfix::after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  width: 100%;
 }
 
-.box {
-  border-radius: .5em;
-  padding: 1em;
-}
-.box + .box {
-  margin-top: 1em;
+/**
+ * GENERIC RULES
+ **/
+body {
+  background: #333;
+  color: darkslategray;
+  font-family: "Century Gothic", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 header {
   background: orange;
+  border-bottom: solid 1px #333;
   color: gray;
 }
 nav {
   background: gray;
   color: orange;
 }
+figure, img {
+  max-width: 100%;
+}
+figure {
+  margin: 0;
+}
+img {
+  max-height: 500px;
+}
+
 #main {
   background: white;
   color: black;
 }
 
-h1.project-title,
-h4.team-name,
+.project-title,
+.team-name,
 ul.project-authors,
 ul.nav,
 figure,
 figcaption {
   text-align: center;
+}
+
+.project-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+.project-title > a {
+  text-decoration: none;
+}
+
+.team-name {
+  font-weight: bold;
 }
 
 ul.project-authors {
@@ -48,11 +80,15 @@ ul.project-authors > li {
   display: inline-block;
 }
 ul.project-authors > li + li {
-  padding-left: 1ch;
+  /*padding-left: 1ch;*/
+}
+ul.project-authors > li + li::before {
+  content: "| ";
 }
 
 ul.nav {
   list-style: none;
+  margin: 0;
   padding: 0;
 }
 ul.nav > li {
@@ -61,15 +97,26 @@ ul.nav > li {
 ul.nav > li + li::before {
   content: " | ";
 }
-
-div#mainContent {
-  margin-left: auto; margin-right: auto;
-  max-width: 1000px;
+ul.nav a {
+  text-decoration: none;
 }
 
 h2.page-title {
+  color: #ccc;
+  margin: 0;
   text-align: center;
   text-decoration: underline;
+}
+
+div#main {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+div#main > *:first-child {
+  margin-top: 0;
+}
+div#main > *:last-child {
+  margin-bottom: 0;
 }
 
 p {
@@ -78,8 +125,8 @@ p {
 
 figcaption {
   font-size: 10pt;
-  font-weight: bold;
-  margin: 1em 0;
+  font-style: italic;
+  margin: 1em 0 0;
 }
 
 footer {
@@ -87,3 +134,58 @@ footer {
   font-size: 9pt;
   text-align: center;
 }
+
+video {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+a {
+  color: #333;
+}
+
+/**
+ * COMPETITION LIST
+ **/
+ul.competitors {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.competitors > li {
+  background: #fff;
+  clear: both;
+  padding: 1em;
+}
+ul.competitors > li::after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  width: 100%;
+}
+ul.competitors > li:nth-child(odd) {
+  background: #eee;
+}
+ul.competitors > li > h3,
+ul.competitors > li > h4 {
+  margin-top: 0;
+}
+ul.competitors > li > img {
+  max-height: 300px;
+}
+ul.competitors > li:nth-child(even) > img {
+  float: left;
+  padding-right: 1em;
+}
+ul.competitors > li:nth-child(odd) > img {
+  float: right;
+  padding-left: 1em;
+}
+ul.competitors.swap > li {
+  background: #eee;
+}
+ul.competitors.swap > li:nth-child(odd) {
+  background: #fff;
+}
+
