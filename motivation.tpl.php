@@ -5,6 +5,6 @@
 <p>If we can prove this will work for a small enclosure, the solution could easily be scaled to use multiple cameras in a network to allow robots to autonomously and efficiently move about larger enviroments, such as entire building floors.</p>
 
 <figure>
-  <img src="images/birdEyeView.jpg" />
+  <img src="images/birdEyeView0.jpg" />
   <figcaption>An Overview of the Final Project</figcaption>
 </figure>
