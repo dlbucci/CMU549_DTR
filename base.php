@@ -30,6 +30,7 @@
         <li><a href="components.php">Components</a></li>
         <li><a href="architecture.php">Architecture</a></li>
         <li><a href="useCases.php">Use Cases</a></li>
+        <li><a href="interactions.php">Interactions</a></li>
       </ul>
     </nav>
 
