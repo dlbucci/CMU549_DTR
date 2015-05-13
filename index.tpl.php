@@ -4,6 +4,12 @@
 
 <p>Using images from a camera with a bird's-eye view, a central hub will coordinate the movements of multiple networked robots to achieve maximum terrain coverage while minimizing time and distance travelled for each robot.</p>
 
+<h4>The Pitch</h4>
+
+<div>
+  <video src="videos/pitch-video.mp4" controls>You're missing a funny video...</video>
+</div>
+
 <h3>Video Updates</h3>
 
 <ul class="competitors">
