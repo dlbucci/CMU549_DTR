@@ -14,6 +14,16 @@
 
 <ul class="competitors">
   <li class="video box">
+    <h4>Final Demo</h4>
+
+    <p>This was filmed on May 2nd, 2015, shortly after our final demo.  It demonstrates most of what we got working with the project.</p>
+
+    <div>
+      <video src="videos/final-demo.mp4" controls>Get it together, dawg.</video>
+    </div>
+  </li>
+
+  <li class="video box">
     <h4>Round Trip Test</h4>
 
     <p>This was filmed on April 24th, 2015.  It demonstrates the bare-minimum of the interactions we hope to achieve.</p>
